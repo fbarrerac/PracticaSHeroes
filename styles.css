@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.header-ad{
+    background-color: #1CD1B0;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.header-title{
+    background-color: #00669F;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.container{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-batman, .card-harley{
+    background-color: rgba(245, 245, 220, 0.3);
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    border-radius: 5%;
+    position: relative;
+    width: 301px;
+    margin: 50px;
+}
+
+.hearth{
+    height: 25px;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+.profile-batman, .profile-harley{
+    border-radius: 100%;
+    position: absolute;
+    top: 130px;
+    left: 90px;
+}
+
+.card-text{
+    padding-top: 70px;
+}
+
+.card-name{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.text{
+    font-size: 18px;
+    padding: 0px 10px;
+}
+
+.buttom{
+    background-color: #00669F;
+    color: white;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+    left: 40px;
+
+    height: 50px;
+    width: 130px;
+
+}
+
+.container-buttom{
+    align-items: center;
+}
+
+
+
+
+
+
+footer{
+    display: block;
+}
+
+.derechos-reservados{
+    background-color: #00669F;
+    color: white;
+    font-size: 18px;
+    padding: 18px;
+}
