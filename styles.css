@@ -17,10 +17,8 @@
 }
 
 .container{
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
 }
 
 .card-batman, .card-harley{
@@ -78,11 +76,6 @@
 .container-buttom{
     align-items: center;
 }
-
-
-
-
-
 
 footer{
     display: block;
